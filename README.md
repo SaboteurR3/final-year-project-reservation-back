@@ -6,10 +6,10 @@
 -> გვაქვს ფუნქციონალი რომელიც მოიაზრებს: სასტუმროების, მისი ოთახების და ტურების დამატებას, წაშლას, დათვალიერებას, განახლებას, დაჯავშნას, და ა.შ
 
 -> ავტორიზაცია/რეგისტრაციის API ები:
-InternalModule -> 
-1)/api/internal/auth/register | Post მეთოდი
-შიდა მოხმარებლის შესაქმენალდ
-json(RegisterInternalRequestDto) ში უნდა გავატანოთ:
+-> InternalModule -> 
+-> 1)/api/internal/auth/register | Post მეთოდი
+-> შიდა მოხმარებლის შესაქმენალდ
+-> json(RegisterInternalRequestDto) ში უნდა გავატანოთ:
         String firstname,
         String lastname,
         String email,
