@@ -81,6 +81,7 @@ public class AuthenticationService {
                 .email(request.email())
                 .registrationDate(LocalDateTime.now())
                 .mobileNumber(request.mobileNumber())
+                .image(request.image())
                 .password(passwordEncoder.encode(request.password()))
                 .role(Role.INTERNAL_USER)
                 .country(Country.GEORGIA)

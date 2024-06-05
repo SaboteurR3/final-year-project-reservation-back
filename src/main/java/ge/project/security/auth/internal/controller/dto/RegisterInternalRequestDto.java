@@ -18,6 +18,7 @@ public record RegisterInternalRequestDto(
         @Pattern(regexp = AppConstants.PHONE_NUMBER_PATTERN)
         String mobileNumber,
         @NotEmpty
-        String password
+        String password,
+        String image
 ) {
 }
