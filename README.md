@@ -1,5 +1,6 @@
 # Spring Boot 3.0
 The application will be available at [http://localhost:8080](http://localhost:8080).
+
 Swagger: http://localhost:8080/swagger/swagger-ui/index.html
 
 საიტზე გვყავს ორი ტიპის მოხმარებელი: შიდა(Internal) და გარე(External). გვაქვს ფუნქციონალი რომელიც მოიაზრებს: სასტუმროების, მისი ოთახების და ტურების დამატებას, წაშლას, დათვალიერებას, განახლებას, დაჯავშნას, და ა.შ.
