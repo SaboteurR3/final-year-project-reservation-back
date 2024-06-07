@@ -47,6 +47,7 @@ public class SecurityConfiguration {
                 .authorizeHttpRequests(
                         configurer -> configurer
                                 .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
+                                .requestMatchers(HttpMethod.GET, "/swagger/**").permitAll()
                                 .requestMatchers(HttpMethod.GET, "/profile").hasAnyRole(USER.name(), INTERNAL_USER.name())
                                 .requestMatchers(HttpMethod.POST, "/api/internal/auth/**").permitAll()
                                 .requestMatchers(HttpMethod.POST, "/api/external/auth/**").permitAll()

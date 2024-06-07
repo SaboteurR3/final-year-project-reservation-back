@@ -69,7 +69,7 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
     protected boolean shouldNotFilter(HttpServletRequest request) {
         return "/auth/login".equals(request.getRequestURI()) && "POST".equals(request.getMethod())
                || "/auth/register".equals(request.getRequestURI()) && "POST".equals(request.getMethod())
-               || "/swagger/**".equals(request.getRequestURI()) && "GET".equals(request.getMethod())
+               || "/swagger/*F*".equals(request.getRequestURI()) && "GET".equals(request.getMethod())
                || "/auth/refresh".equals(request.getRequestURI()) && "PATCH".equals(request.getMethod())
                || "/products/**".equals(request.getRequestURI()) && "GET".equals(request.getMethod())
                || "/products".equals(request.getRequestURI()) && "GET".equals(request.getMethod())
