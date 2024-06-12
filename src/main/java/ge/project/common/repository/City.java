@@ -18,6 +18,7 @@ public enum City {
     Samtredia,
     Khashuri,
     Tkibuli,
+    Gurjaani,
     Telavi,
     Ozurgeti,
     Sagarejo,
@@ -38,5 +39,6 @@ public enum City {
     Khulo,
     Lanchkhuti,
     Ninotsminda,
-    Tqibuli
+    Tqibuli,
+    Sokhumi
 }
