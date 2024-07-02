@@ -1,23 +1,25 @@
 package ge.project.common.recommend;
 
+import ge.project.common.repository.Country;
+
 import java.util.*;
 
 public class ClimateMap {
-    private Map<String, ClimateData> climateMap;
+    private Map<Country, ClimateData> climateMap;
 
     public ClimateMap() {
         climateMap = new HashMap<>();
     }
 
-    public void addCountry(String country, double avgTemperature, double avgRainfall, double avgHumidity) {
+    public void addCountry(Country country, double avgTemperature, double avgRainfall, double avgHumidity) {
         climateMap.put(country, new ClimateData(avgTemperature, avgRainfall, avgHumidity));
     }
 
-    public ClimateData getClimateData(String country) {
+    public ClimateData getClimateData(Country country) {
         return climateMap.get(country);
     }
 
-    public double calculateEuclideanDistance(String country1, String country2) {
+    public double calculateEuclideanDistance(Country country1, Country country2) {
         ClimateData data1 = getClimateData(country1);
         ClimateData data2 = getClimateData(country2);
 
@@ -29,7 +31,7 @@ public class ClimateMap {
     }
 
     //Finds a country with similar or opposite climate
-    public List<String> findComparableCountry(String country, ComparisonType type) {
+    public List<String> findComparableCountry(Country country, ComparisonType type) {
         String resultCountry = null;
         PriorityQueue<Map.Entry<String, Double>> priorityQueue;
 
@@ -39,11 +41,11 @@ public class ClimateMap {
             priorityQueue = new PriorityQueue<>(Map.Entry.<String, Double>comparingByValue().reversed());
         }
 
-        for (Map.Entry<String, ClimateData> entry : climateMap.entrySet()) {
-            String currentCountry = entry.getKey();
+        for (Map.Entry<Country, ClimateData> entry : climateMap.entrySet()) {
+            Country currentCountry = entry.getKey();
             if (!currentCountry.equals(country)) {
                 double distance = calculateEuclideanDistance(country, currentCountry);
-                priorityQueue.offer(new AbstractMap.SimpleEntry<>(currentCountry, distance));
+                priorityQueue.offer(new AbstractMap.SimpleEntry<>(currentCountry.toString(), distance));
                 if (priorityQueue.size() > 5) {
                     priorityQueue.poll();
                 }

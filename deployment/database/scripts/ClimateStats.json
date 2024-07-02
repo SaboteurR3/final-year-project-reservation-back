@@ -1,0 +1,822 @@
+{
+  "China": {
+    "avgTemperature": 9.3,
+    "avgRainfall": 700,
+    "avgHumidity": 75
+  },
+  "Japan": {
+    "avgTemperature": 15.2,
+    "avgRainfall": 1200,
+    "avgHumidity": 70
+  },
+  "South Korea": {
+    "avgTemperature": 12.5,
+    "avgRainfall": 1235,
+    "avgHumidity": 70
+  },
+  "North Korea": {
+    "avgTemperature": 8.5,
+    "avgRainfall": 965,
+    "avgHumidity": 70
+  },
+  "Mongolia": {
+    "avgTemperature": -1.5,
+    "avgRainfall": 150,
+    "avgHumidity": 60
+  },
+  "Taiwan": {
+    "avgTemperature": 22.0,
+    "avgRainfall": 2500,
+    "avgHumidity": 80
+  },
+  "Brunei": {
+    "avgTemperature": 27.0,
+    "avgRainfall": 2900,
+    "avgHumidity": 83
+  },
+  "Cambodia": {
+    "avgTemperature": 27.7,
+    "avgRainfall": 1400,
+    "avgHumidity": 80
+  },
+  "Indonesia": {
+    "avgTemperature": 26.0,
+    "avgRainfall": 2000,
+    "avgHumidity": 85
+  },
+  "Laos": {
+    "avgTemperature": 23.8,
+    "avgRainfall": 1800,
+    "avgHumidity": 82
+  },
+  "Malaysia": {
+    "avgTemperature": 27.0,
+    "avgRainfall": 2500,
+    "avgHumidity": 85
+  },
+  "Myanmar": {
+    "avgTemperature": 27.3,
+    "avgRainfall": 2100,
+    "avgHumidity": 80
+  },
+  "Philippines": {
+    "avgTemperature": 26.6,
+    "avgRainfall": 2060,
+    "avgHumidity": 81
+  },
+  "Singapore": {
+    "avgTemperature": 27.7,
+    "avgRainfall": 2340,
+    "avgHumidity": 84
+  },
+  "Thailand": {
+    "avgTemperature": 27.5,
+    "avgRainfall": 1700,
+    "avgHumidity": 80
+  },
+  "Vietnam": {
+    "avgTemperature": 24.0,
+    "avgRainfall": 1700,
+    "avgHumidity": 85
+  },
+  "Afghanistan": {
+    "avgTemperature": 12.0,
+    "avgRainfall": 300,
+    "avgHumidity": 40
+  },
+  "Bangladesh": {
+    "avgTemperature": 25.0,
+    "avgRainfall": 2000,
+    "avgHumidity": 80
+  },
+  "Bhutan": {
+    "avgTemperature": 10.5,
+    "avgRainfall": 1500,
+    "avgHumidity": 75
+  },
+  "India": {
+    "avgTemperature": 24.5,
+    "avgRainfall": 1100,
+    "avgHumidity": 80
+  },
+  "Maldives": {
+    "avgTemperature": 28.0,
+    "avgRainfall": 1920,
+    "avgHumidity": 80
+  },
+  "Nepal": {
+    "avgTemperature": 15.0,
+    "avgRainfall": 1600,
+    "avgHumidity": 70
+  },
+  "Pakistan": {
+    "avgTemperature": 20.0,
+    "avgRainfall": 500,
+    "avgHumidity": 55
+  },
+  "Sri Lanka": {
+    "avgTemperature": 27.0,
+    "avgRainfall": 1800,
+    "avgHumidity": 80
+  },
+  "Kazakhstan": {
+    "avgTemperature": 7.0,
+    "avgRainfall": 250,
+    "avgHumidity": 60
+  },
+  "Kyrgyzstan": {
+    "avgTemperature": 8.0,
+    "avgRainfall": 535,
+    "avgHumidity": 65
+  },
+  "Tajikistan": {
+    "avgTemperature": 8.6,
+    "avgRainfall": 691,
+    "avgHumidity": 68
+  },
+  "Turkmenistan": {
+    "avgTemperature": 15.0,
+    "avgRainfall": 161,
+    "avgHumidity": 50
+  },
+  "Uzbekistan": {
+    "avgTemperature": 15.0,
+    "avgRainfall": 413,
+    "avgHumidity": 53
+  },
+  "Armenia": {
+    "avgTemperature": 11.0,
+    "avgRainfall": 550,
+    "avgHumidity": 55
+  },
+  "Azerbaijan": {
+    "avgTemperature": 14.2,
+    "avgRainfall": 450,
+    "avgHumidity": 70
+  },
+  "Georgia": {
+    "avgTemperature": 12.7,
+    "avgRainfall": 1020,
+    "avgHumidity": 70
+  },
+  "Albania": {
+    "avgTemperature": 15.5,
+    "avgRainfall": 1485,
+    "avgHumidity": 72
+  },
+  "Austria": {
+    "avgTemperature": 7.0,
+    "avgRainfall": 1170,
+    "avgHumidity": 75
+  },
+  "Belgium": {
+    "avgTemperature": 10.1,
+    "avgRainfall": 820,
+    "avgHumidity": 77
+  },
+  "Bosnia and Herzegovina": {
+    "avgTemperature": 10.6,
+    "avgRainfall": 1250,
+    "avgHumidity": 73
+  },
+  "Bulgaria": {
+    "avgTemperature": 11.3,
+    "avgRainfall": 650,
+    "avgHumidity": 70
+  },
+  "Croatia": {
+    "avgTemperature": 11.0,
+    "avgRainfall": 1050,
+    "avgHumidity": 70
+  },
+  "Czech Republic": {
+    "avgTemperature": 7.8,
+    "avgRainfall": 693,
+    "avgHumidity": 75
+  },
+  "Denmark": {
+    "avgTemperature": 8.3,
+    "avgRainfall": 765,
+    "avgHumidity": 77
+  },
+  "Estonia": {
+    "avgTemperature": 6.4,
+    "avgRainfall": 662,
+    "avgHumidity": 80
+  },
+  "Finland": {
+    "avgTemperature": 5.5,
+    "avgRainfall": 600,
+    "avgHumidity": 80
+  },
+  "France": {
+    "avgTemperature": 12.7,
+    "avgRainfall": 650,
+    "avgHumidity": 75
+  },
+  "Germany": {
+    "avgTemperature": 10.5,
+    "avgRainfall": 700,
+    "avgHumidity": 70
+  },
+  "Greece": {
+    "avgTemperature": 17.6,
+    "avgRainfall": 652,
+    "avgHumidity": 69
+  },
+  "Hungary": {
+    "avgTemperature": 11.0,
+    "avgRainfall": 600,
+    "avgHumidity": 72
+  },
+  "Iceland": {
+    "avgTemperature": 4.5,
+    "avgRainfall": 1250,
+    "avgHumidity": 80
+  },
+  "Ireland": {
+    "avgTemperature": 9.5,
+    "avgRainfall": 1200,
+    "avgHumidity": 80
+  },
+  "Italy": {
+    "avgTemperature": 13.2,
+    "avgRainfall": 832,
+    "avgHumidity": 75
+  },
+  "Latvia": {
+    "avgTemperature": 6.2,
+    "avgRainfall": 600,
+    "avgHumidity": 81
+  },
+  "Lithuania": {
+    "avgTemperature": 6.5,
+    "avgRainfall": 650,
+    "avgHumidity": 80
+  },
+  "Luxembourg": {
+    "avgTemperature": 9.5,
+    "avgRainfall": 950,
+    "avgHumidity": 78
+  },
+  "Malta": {
+    "avgTemperature": 18.5,
+    "avgRainfall": 550,
+    "avgHumidity": 74
+  },
+  "Netherlands": {
+    "avgTemperature": 10.0,
+    "avgRainfall": 800,
+    "avgHumidity": 80
+  },
+  "Norway": {
+    "avgTemperature": 1.5,
+    "avgRainfall": 1460,
+    "avgHumidity": 75
+  },
+  "Poland": {
+    "avgTemperature": 7.7,
+    "avgRainfall": 600,
+    "avgHumidity": 77
+  },
+  "Portugal": {
+    "avgTemperature": 15.2,
+    "avgRainfall": 900,
+    "avgHumidity": 75
+  },
+  "Romania": {
+    "avgTemperature": 10.4,
+    "avgRainfall": 637,
+    "avgHumidity": 72
+  },
+  "Slovakia": {
+    "avgTemperature": 8.5,
+    "avgRainfall": 750,
+    "avgHumidity": 77
+  },
+  "Slovenia": {
+    "avgTemperature": 8.8,
+    "avgRainfall": 1200,
+    "avgHumidity": 77
+  },
+  "Spain": {
+    "avgTemperature": 14.0,
+    "avgRainfall": 636,
+    "avgHumidity": 65
+  },
+  "Sweden": {
+    "avgTemperature": 6.1,
+    "avgRainfall": 500,
+    "avgHumidity": 85
+  },
+  "Switzerland": {
+    "avgTemperature": 6.5,
+    "avgRainfall": 1200,
+    "avgHumidity": 75
+  },
+  "United Kingdom": {
+    "avgTemperature": 9.3,
+    "avgRainfall": 1154,
+    "avgHumidity": 85
+  },
+  "Argentina": {
+    "avgTemperature": 14.8,
+    "avgRainfall": 591,
+    "avgHumidity": 70
+  },
+  "Bahamas": {
+    "avgTemperature": 24.7,
+    "avgRainfall": 1400,
+    "avgHumidity": 75
+  },
+  "Barbados": {
+    "avgTemperature": 26.7,
+    "avgRainfall": 1400,
+    "avgHumidity": 80
+  },
+  "Belize": {
+    "avgTemperature": 26.0,
+    "avgRainfall": 2000,
+    "avgHumidity": 83
+  },
+  "Bolivia": {
+    "avgTemperature": 20.0,
+    "avgRainfall": 1140,
+    "avgHumidity": 70
+  },
+  "Brazil": {
+    "avgTemperature": 24.8,
+    "avgRainfall": 1761,
+    "avgHumidity": 80
+  },
+  "Canada": {
+    "avgTemperature": -5.35,
+    "avgRainfall": 537,
+    "avgHumidity": 70
+  },
+  "Chile": {
+    "avgTemperature": 8.45,
+    "avgRainfall": 660,
+    "avgHumidity": 75
+  },
+  "Colombia": {
+    "avgTemperature": 24.5,
+    "avgRainfall": 2600,
+    "avgHumidity": 80
+  },
+  "Costa Rica": {
+    "avgTemperature": 25.2,
+    "avgRainfall": 2900,
+    "avgHumidity": 85
+  },
+  "Cuba": {
+    "avgTemperature": 25.6,
+    "avgRainfall": 1400,
+    "avgHumidity": 78
+  },
+  "Dominican Republic": {
+    "avgTemperature": 25.5,
+    "avgRainfall": 1483,
+    "avgHumidity": 80
+  },
+  "Ecuador": {
+    "avgTemperature": 21.0,
+    "avgRainfall": 1320,
+    "avgHumidity": 83
+  },
+  "El Salvador": {
+    "avgTemperature": 23.6,
+    "avgRainfall": 1800,
+    "avgHumidity": 77
+  },
+  "Guatemala": {
+    "avgTemperature": 22.0,
+    "avgRainfall": 1865,
+    "avgHumidity": 80
+  },
+  "Guyana": {
+    "avgTemperature": 26.8,
+    "avgRainfall": 2415,
+    "avgHumidity": 82
+  },
+  "Haiti": {
+    "avgTemperature": 25.6,
+    "avgRainfall": 1460,
+    "avgHumidity": 80
+  },
+  "Honduras": {
+    "avgTemperature": 24.4,
+    "avgRainfall": 2066,
+    "avgHumidity": 80
+  },
+  "Jamaica": {
+    "avgTemperature": 27.0,
+    "avgRainfall": 1980,
+    "avgHumidity": 80
+  },
+  "Mexico": {
+    "avgTemperature": 21.0,
+    "avgRainfall": 758,
+    "avgHumidity": 77
+  },
+  "Nicaragua": {
+    "avgTemperature": 26.5,
+    "avgRainfall": 1980,
+    "avgHumidity": 80
+  },
+  "Panama": {
+    "avgTemperature": 27.0,
+    "avgRainfall": 1900,
+    "avgHumidity": 85
+  },
+  "Paraguay": {
+    "avgTemperature": 23.5,
+    "avgRainfall": 1270,
+    "avgHumidity": 75
+  },
+  "Peru": {
+    "avgTemperature": 19.5,
+    "avgRainfall": 1561,
+    "avgHumidity": 82
+  },
+  "Suriname": {
+    "avgTemperature": 26.8,
+    "avgRainfall": 2200,
+    "avgHumidity": 83
+  },
+  "Trinidad and Tobago": {
+    "avgTemperature": 26.5,
+    "avgRainfall": 2100,
+    "avgHumidity": 82
+  },
+  "United States": {
+    "avgTemperature": 8.5,
+    "avgRainfall": 715,
+    "avgHumidity": 65
+  },
+  "Uruguay": {
+    "avgTemperature": 17.0,
+    "avgRainfall": 1016,
+    "avgHumidity": 75
+  },
+  "Venezuela": {
+    "avgTemperature": 25.4,
+    "avgRainfall": 2050,
+    "avgHumidity": 80
+  },
+  "Caribbean": {
+    "avgTemperature": 26.0,
+    "avgRainfall": 2000,
+    "avgHumidity": 80
+  },
+  "Algeria": {
+    "avgTemperature": 21.0,
+    "avgRainfall": 100,
+    "avgHumidity": 40
+  },
+  "Angola": {
+    "avgTemperature": 24.0,
+    "avgRainfall": 1050,
+    "avgHumidity": 80
+  },
+  "Benin": {
+    "avgTemperature": 27.0,
+    "avgRainfall": 1200,
+    "avgHumidity": 80
+  },
+  "Botswana": {
+    "avgTemperature": 21.0,
+    "avgRainfall": 450,
+    "avgHumidity": 40
+  },
+  "Burkina Faso": {
+    "avgTemperature": 28.0,
+    "avgRainfall": 800,
+    "avgHumidity": 55
+  },
+  "Burundi": {
+    "avgTemperature": 20.0,
+    "avgRainfall": 1400,
+    "avgHumidity": 75
+  },
+  "Cape Verde": {
+    "avgTemperature": 24.0,
+    "avgRainfall": 260,
+    "avgHumidity": 75
+  },
+  "Cameroon": {
+    "avgTemperature": 25.0,
+    "avgRainfall": 1600,
+    "avgHumidity": 85
+  },
+  "Central African Republic": {
+    "avgTemperature": 26.0,
+    "avgRainfall": 1200,
+    "avgHumidity": 85
+  },
+  "Chad": {
+    "avgTemperature": 26.0,
+    "avgRainfall": 150,
+    "avgHumidity": 30
+  },
+  "Comoros": {
+    "avgTemperature": 25.0,
+    "avgRainfall": 1500,
+    "avgHumidity": 80
+  },
+  "Congo": {
+    "avgTemperature": 24.0,
+    "avgRainfall": 1620,
+    "avgHumidity": 80
+  },
+  "DRC": {
+    "avgTemperature": 24.0,
+    "avgRainfall": 1750,
+    "avgHumidity": 80
+  },
+  "Djibouti": {
+    "avgTemperature": 28.0,
+    "avgRainfall": 200,
+    "avgHumidity": 70
+  },
+  "Egypt": {
+    "avgTemperature": 22.0,
+    "avgRainfall": 50,
+    "avgHumidity": 60
+  },
+  "Equatorial Guinea": {
+    "avgTemperature": 25.0,
+    "avgRainfall": 3000,
+    "avgHumidity": 80
+  },
+  "Eritrea": {
+    "avgTemperature": 25.0,
+    "avgRainfall": 250,
+    "avgHumidity": 60
+  },
+  "Eswatini": {
+    "avgTemperature": 20.0,
+    "avgRainfall": 800,
+    "avgHumidity": 70
+  },
+  "Ethiopia": {
+    "avgTemperature": 20.0,
+    "avgRainfall": 830,
+    "avgHumidity": 75
+  },
+  "Gabon": {
+    "avgTemperature": 25.0,
+    "avgRainfall": 1800,
+    "avgHumidity": 85
+  },
+  "The Gambia": {
+    "avgTemperature": 27.0,
+    "avgRainfall": 1150,
+    "avgHumidity": 75
+  },
+  "Ghana": {
+    "avgTemperature": 27.0,
+    "avgRainfall": 850,
+    "avgHumidity": 80
+  },
+  "Guinea": {
+    "avgTemperature": 26.0,
+    "avgRainfall": 4000,
+    "avgHumidity": 85
+  },
+  "Guinea-Bissau": {
+    "avgTemperature": 26.0,
+    "avgRainfall": 2020,
+    "avgHumidity": 80
+  },
+  "Ivory Coast": {
+    "avgTemperature": 27.0,
+    "avgRainfall": 1300,
+    "avgHumidity": 85
+  },
+  "Kenya": {
+    "avgTemperature": 25.0,
+    "avgRainfall": 950,
+    "avgHumidity": 75
+  },
+  "Lesotho": {
+    "avgTemperature": 15.0,
+    "avgRainfall": 800,
+    "avgHumidity": 70
+  },
+  "Liberia": {
+    "avgTemperature": 26.0,
+    "avgRainfall": 4000,
+    "avgHumidity": 85
+  },
+  "Libya": {
+    "avgTemperature": 20.0,
+    "avgRainfall": 50,
+    "avgHumidity": 30
+  },
+  "Madagascar": {
+    "avgTemperature": 24.0,
+    "avgRainfall": 1300,
+    "avgHumidity": 80
+  },
+  "Malawi": {
+    "avgTemperature": 22.0,
+    "avgRainfall": 900,
+    "avgHumidity": 75
+  },
+  "Mali": {
+    "avgTemperature": 28.0,
+    "avgRainfall": 500,
+    "avgHumidity": 40
+  },
+  "Mauritania": {
+    "avgTemperature": 26.0,
+    "avgRainfall": 90,
+    "avgHumidity": 25
+  },
+  "Mauritius": {
+    "avgTemperature": 23.0,
+    "avgRainfall": 900,
+    "avgHumidity": 80
+  },
+  "Morocco": {
+    "avgTemperature": 18.0,
+    "avgRainfall": 350,
+    "avgHumidity": 70
+  },
+  "Mozambique": {
+    "avgTemperature": 25.0,
+    "avgRainfall": 800,
+    "avgHumidity": 75
+  },
+  "Namibia": {
+    "avgTemperature": 20.0,
+    "avgRainfall": 150,
+    "avgHumidity": 40
+  },
+  "Niger": {
+    "avgTemperature": 28.0,
+    "avgRainfall": 150,
+    "avgHumidity": 25
+  },
+  "Nigeria": {
+    "avgTemperature": 27.0,
+    "avgRainfall": 1300,
+    "avgHumidity": 80
+  },
+  "Rwanda": {
+    "avgTemperature": 20.0,
+    "avgRainfall": 800,
+    "avgHumidity": 75
+  },
+  "São Tomé and Príncipe": {
+    "avgTemperature": 25.0,
+    "avgRainfall": 1500,
+    "avgHumidity": 85
+  },
+  "Senegal": {
+    "avgTemperature": 26.0,
+    "avgRainfall": 550,
+    "avgHumidity": 75
+  },
+  "Seychelles": {
+    "avgTemperature": 27.0,
+    "avgRainfall": 2600,
+    "avgHumidity": 80
+  },
+  "Sierra Leone": {
+    "avgTemperature": 27.0,
+    "avgRainfall": 3800,
+    "avgHumidity": 85
+  },
+  "Somalia": {
+    "avgTemperature": 28.0,
+    "avgRainfall": 200,
+    "avgHumidity": 60
+  },
+  "South Africa": {
+    "avgTemperature": 17.0,
+    "avgRainfall": 464,
+    "avgHumidity": 60
+  },
+  "South Sudan": {
+    "avgTemperature": 26.0,
+    "avgRainfall": 500,
+    "avgHumidity": 70
+  },
+  "Sudan": {
+    "avgTemperature": 26.0,
+    "avgRainfall": 100,
+    "avgHumidity": 20
+  },
+  "Tanzania": {
+    "avgTemperature": 25.0,
+    "avgRainfall": 1200,
+    "avgHumidity": 75
+  },
+  "Togo": {
+    "avgTemperature": 27.0,
+    "avgRainfall": 900,
+    "avgHumidity": 85
+  },
+  "Tunisia": {
+    "avgTemperature": 20.0,
+    "avgRainfall": 250,
+    "avgHumidity": 40
+  },
+  "Uganda": {
+    "avgTemperature": 21.0,
+    "avgRainfall": 1200,
+    "avgHumidity": 80
+  },
+  "Zambia": {
+    "avgTemperature": 21.0,
+    "avgRainfall": 800,
+    "avgHumidity": 75
+  },
+  "Zimbabwe": {
+    "avgTemperature": 21.0,
+    "avgRainfall": 830,
+    "avgHumidity": 75
+  },
+  "Comoros": {
+    "avgTemperature": 25.0,
+    "avgRainfall": 1500,
+    "avgHumidity": 80
+  },
+  "Madagascar": {
+    "avgTemperature": 24.0,
+    "avgRainfall": 1300,
+    "avgHumidity": 80
+  },
+  "Maldives": {
+    "avgTemperature": 28.0,
+    "avgRainfall": 1920,
+    "avgHumidity": 80
+  },
+  "Mauritius": {
+    "avgTemperature": 23.0,
+    "avgRainfall": 900,
+    "avgHumidity": 80
+  },
+  "Seychelles": {
+    "avgTemperature": 27.0,
+    "avgRainfall": 2600,
+    "avgHumidity": 80
+  },
+  "Pacific_Islands": {
+    "avgTemperature": 25.0,
+    "avgRainfall": 2200,
+    "avgHumidity": 80
+  },
+  "Australia": {
+    "avgTemperature": 22.4,
+    "avgRainfall": 552,
+    "avgHumidity": 65
+  },
+  "Fiji": {
+    "avgTemperature": 25.0,
+    "avgRainfall": 2000,
+    "avgHumidity": 80
+  },
+  "Kiribati": {
+    "avgTemperature": 28.0,
+    "avgRainfall": 2000,
+    "avgHumidity": 80
+  },
+  "Marshall Islands": {
+    "avgTemperature": 27.0,
+    "avgRainfall": 1800,
+    "avgHumidity": 80
+  },
+  "Micronesia": {
+    "avgTemperature": 27.0,
+    "avgRainfall": 2500,
+    "avgHumidity": 80
+  },
+  "Nauru": {
+    "avgTemperature": 28.0,
+    "avgRainfall": 800,
+    "avgHumidity": 80
+  },
+  "New Zealand": {
+    "avgTemperature": 13.5,
+    "avgRainfall": 1100,
+    "avgHumidity": 75
+  },
+  "Tonga": {
+    "avgTemperature": 26.0,
+    "avgRainfall": 1800,
+    "avgHumidity": 80
+  },
+  "Tuvalu": {
+    "avgTemperature": 28.0,
+    "avgRainfall": 3000,
+    "avgHumidity": 80
+  },
+  "Vanuatu": {
+    "avgTemperature": 25.0,
+    "avgRainfall": 2600,
+    "avgHumidity": 80
+  }
+}
