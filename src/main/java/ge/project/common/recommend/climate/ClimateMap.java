@@ -1,5 +1,6 @@
-package ge.project.common.recommend;
+package ge.project.common.recommend.climate;
 
+import ge.project.common.recommend.ComparisonType;
 import ge.project.common.repository.Country;
 
 import java.util.*;
@@ -13,6 +14,10 @@ public class ClimateMap {
 
     public void addCountry(Country country, double avgTemperature, double avgRainfall, double avgHumidity) {
         climateMap.put(country, new ClimateData(avgTemperature, avgRainfall, avgHumidity));
+    }
+
+    public void addCountry(Country country, ClimateData data) {
+        climateMap.put(country, data);
     }
 
     public ClimateData getClimateData(Country country) {

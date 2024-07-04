@@ -187,4 +187,13 @@ public enum Country {
     PACIFIC_ISLANDS("Pacific Islands");  // Combined class for Pacific island nations
 
     private final String name;
+
+    public static Country fromString(String name) {
+        for (Country country : Country.values()) {
+            if (country.getName().equalsIgnoreCase(name)) {
+                return country;
+            }
+        }
+        throw new IllegalArgumentException("No enum constant with name " + name);
+    }
 }

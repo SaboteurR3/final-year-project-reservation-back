@@ -1,6 +1,5 @@
-package ge.project.common.recommend;
+package ge.project.common.recommend.climate;
 
-import ge.project.common.repository.Country;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
