@@ -5,7 +5,7 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-class ClimateData {
+public class ClimateData {
     private double avgTemperature;
     private double avgRainfall;
     private double avgHumidity;
