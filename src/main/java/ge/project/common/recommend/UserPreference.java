@@ -25,6 +25,6 @@ public class UserPreference {
             throw new IllegalArgumentException("min and max cannot be the same value");
         }
         double normalized = ((value - min) / (max - min)) * 2 - 1;
-        return normalized * multiplicator;
+        return (max - min)*normalized*multiplicator + min;
     }
 }

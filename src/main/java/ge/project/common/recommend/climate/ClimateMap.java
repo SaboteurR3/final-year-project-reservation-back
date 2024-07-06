@@ -2,9 +2,11 @@ package ge.project.common.recommend.climate;
 
 import ge.project.common.recommend.ComparisonType;
 import ge.project.common.repository.Country;
+import lombok.Getter;
 
 import java.util.*;
 
+@Getter
 public class ClimateMap {
     private Map<Country, ClimateData> climateMap;
 

@@ -1,11 +1,13 @@
 package ge.project.common.recommend.climate;
 
 import ge.project.common.repository.Country;
+import lombok.Getter;
 
 import java.util.List;
 
+@Getter
 public class MapInstance {
-    private static ClimateMap climateMap;
+    public static ClimateMap climateMap;
 
     private ClimateDataService climateDataService;
 
