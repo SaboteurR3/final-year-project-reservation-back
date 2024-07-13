@@ -33,7 +33,7 @@ public class RecommenderService {
         List<Long> similarUsers = userSimilarities.entrySet().stream()
                 .sorted(Map.Entry.<Long, Double>comparingByValue().reversed())
                 .map(Map.Entry::getKey)
-                .limit(5)
+                .limit(10)
                 .toList();
 
         Map<Long, Double> countryRecommendations = new HashMap<>();
@@ -41,9 +41,18 @@ public class RecommenderService {
         for (Long similarUserId : similarUsers) {
             List<CountryRating> similarUserRatings = ratingRepository.findByUserId(similarUserId);
             for (CountryRating rating : similarUserRatings) {
+                CountryParam similarUserCountry = countryRepository.findByCountryId(rating.getCountryId());
+                CountryParam similarUserCountryParam = new CountryParam(
+                        similarUserCountry.getCountryId(),
+                        similarUserCountry.getCountryEnum(),
+                        similarUserCountry.getClimateData()
+                );
+
+                double climateSimilarity = 1 / (1 + similarUserCountryParam.getClimateData().euclidianDifference(ratingRepository.findByCountryId(rating.getCountryId()).getClimateData()));
+
                 countryRecommendations.put(
                         rating.getCountryId(),
-                        countryRecommendations.getOrDefault(rating.getCountryId(), 0.0) + rating.getRating() * userSimilarities.get(similarUserId)
+                        countryRecommendations.getOrDefault(rating.getCountryId(), 0.0) + rating.getRating() * userSimilarities.get(similarUserId) * climateSimilarity
                 );
             }
         }
