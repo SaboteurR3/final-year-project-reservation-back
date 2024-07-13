@@ -1,6 +1,5 @@
 package ge.project.common.recommend.climate;
 
-
 import ge.project.common.recommend.UserPreference;
 import ge.project.common.repository.Country;
 
