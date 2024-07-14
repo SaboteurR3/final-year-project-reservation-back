@@ -1,6 +1,5 @@
 package ge.project.common.recommend;
 
-import ge.project.common.repository.Country;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 

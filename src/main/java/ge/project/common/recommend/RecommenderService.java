@@ -7,12 +7,12 @@ import java.util.Map;
 
 public class RecommenderService {
     private final RatingRepository ratingRepository;
-    private final UserRepository userRepository;
+    private final UsersRepository usersRepository;
     private final CountryRepository countryRepository;
 
-    public RecommenderService(RatingRepository ratingRepository, UserRepository userRepository, CountryRepository countryRepository) {
+    public RecommenderService(RatingRepository ratingRepository, UsersRepository usersRepository, CountryRepository countryRepository) {
         this.ratingRepository = ratingRepository;
-        this.userRepository = userRepository;
+        this.usersRepository = usersRepository;
         this.countryRepository = countryRepository;
     }
 
