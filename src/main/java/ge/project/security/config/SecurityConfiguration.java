@@ -51,6 +51,7 @@ public class SecurityConfiguration {
                                 .requestMatchers(HttpMethod.GET, "/profile").hasAnyRole(USER.name(), INTERNAL_USER.name())
                                 .requestMatchers(HttpMethod.POST, "/api/internal/auth/**").permitAll()
                                 .requestMatchers(HttpMethod.POST, "/api/external/auth/**").permitAll()
+                                .requestMatchers(HttpMethod.GET, "/api/external/auth/**").permitAll()
                                 .requestMatchers(HttpMethod.GET, "/internal/hotels/**").hasAnyRole(INTERNAL_USER.name())
                                 .requestMatchers(HttpMethod.POST, "/internal/hotels/**").hasAnyRole(INTERNAL_USER.name())
                                 .requestMatchers(HttpMethod.PUT, "/internal/hotels/**").hasAnyRole(INTERNAL_USER.name())

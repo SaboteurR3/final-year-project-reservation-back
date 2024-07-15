@@ -89,6 +89,10 @@ public class RoomService {
 
     public void createRoom(RoomCreateDto dto) {
         Hotel hotel = internalHotelService.lookupHotel(dto.hotelId());
+        User user = userService.curentUser();
+        if(!hotel.getUser().getId().equals(user.getId())) {
+            throw new SecurityViolationException();
+        }
         validateRoom(dto.roomNumber(), hotel);
         Room room = Room.builder()
                 .hotel(hotel)
@@ -144,9 +148,12 @@ public class RoomService {
         roomRepository.saveAndFlush(room);
     }
 
-
     public void removeReservation(Long id) {
+        User user = userService.curentUser();
         Room room = lookupRoom(id);
+        if (!room.getHotel().getUser().equals(user)) {
+            throw new SecurityViolationException();
+        }
         room.setReservedFrom(null);
         room.setReservedTo(null);
         room.setReservedBy(null);
